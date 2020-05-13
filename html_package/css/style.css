@@ -25,49 +25,93 @@
     clear: both;
     display: block;
 }
-.wrapper{
-    width: 90%;
-    height: auto;
-    margin: 0 auto;
-}
-.header{
-    height: 120px;
-}
-.menu{
-    height: 50px;
-}
-.content{
-    height: 800px;
-}
-.big-footer{
-    height: 300px;
-}
-.footer{
-    height: 40px;
-}
-.my-section{
-    background-color: red;
-}
-.new-section{
-    background-image: url("../img/middle.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    color: #ffffff;
 
+/* HEADER CSS */
+body{
+    background-color: #F9F9F0;
+}
+.nav-bar{
+    max-width: 1920px;
+    margin: 40px 45px;
+    clear: both;
+    overflow: hidden;
+}
+.logo {
+}
+.container{
+    max-width: 1400px;
+}
+.social-links {
+    text-align: right;
+}
+.logo_color{
+    fill: #131B31;
+}
+.main-menu{
+    text-align: center;
+}
+.main-menu ul{
+    list-style-type: none;
+}
+.main-menu ul li{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.main-menu ul li a{
+    padding: 5px 15px;
+    color:#131B31;
+    text-decoration: none;
+}
+.main-menu ul li a:hover,
+.main-menu ul li a:active,
+.main-menu ul li a:focus {
+    padding: 5px 15px;
+    text-decoration: none;
+}
+/* social-links */
+.social-links ul{
+    list-style-type: none;
+}
+.social-links ul li{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    width: 32px;
+    overflow: hidden;
+}
+.social-links ul li a{
+    padding: 5px 15px;
+    color:#131B31;
+    text-decoration: none;
+}
+.social-links ul li a:hover,
+.social-links ul li a:active,
+.social-links ul li a:focus {
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.facebook,
+.LinkedIn,
+.instagram{
+    position: relative;
+}
+.instagram{
+    left: -10px;
+}
+.LinkedIn{
+    right: 10px;
+}
+.facebook {
+    right: 10px;
 }
 @media screen and (max-width: 600px) {
-    .demo{
-        background-color: orangered;
-    }
+    
     [class*='col-']{
         width: 100%;
     }
 }
 @media screen and (max-width: 575px) {
-    .border-remove{
-        border: none !important;
-        width: 85%;
-        margin-left: 5%;
-    }
+    
 }
